@@ -1,0 +1,43 @@
+body {
+	background: rgb(197,229,226) url('sakura.png') top left no-repeat fixed;
+	background-size: contain;
+}
+img {
+	float: left;
+	border-radius: 12px;
+	max-height: 128px;
+	margin-right: 16px;
+}
+section {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+h1 {
+	color: #FFFFFF;
+    margin: 0;
+}
+p {
+    color: #ED1651;
+	margin: 8px 0 0 0;
+}
+
+@media (min-device-width: 1024px) {
+	section {
+		position: absolute;
+	    top: 58vh;
+	    left: 58vh;
+	    width: 60vw;
+	}
+}
+
+@media (max-device-width: 1023px) {
+	section {    
+		margin-top: 75vw;
+	    padding: 0 5vw;
+	    font-size: 3em;
+	}
+	img {
+		margin: 16px 24px 16px 0;
+	}
+}
