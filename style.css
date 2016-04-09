@@ -1,6 +1,4 @@
-/*html { 
-	font-size: 1vh;
-}*/
+
 body {
 	background: rgb(197,229,226) url('sakura.png') top left no-repeat fixed;
 	background: contain;
@@ -14,7 +12,7 @@ img {
 	margin-right: 4rem;
 }
 section, form {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	background: rgba(255,255,255,0.95);
     margin: 5vh 0;
     padding: 5vh 5vw;
@@ -48,7 +46,7 @@ input:not([type="checkbox"]) {
 	margin-left: 1rem;
 }
 input[type="checkbox"] {
-	vertical-align: text-bottom;
+	vertical-align: top;
 }
 button {
     background: transparent;
