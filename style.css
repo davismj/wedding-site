@@ -47,9 +47,6 @@ input {
 input:not([type="checkbox"]) {
 	margin-left: 1rem;
 }
-input[type="checkbox"] {
-	vertical-align: text-top;
-}
 button {
     background: transparent;
     border: 1px solid #562A29;
