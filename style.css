@@ -1,6 +1,10 @@
-html { 
-	font-size: 1vh;
+@media (min-width: 600px) {
+	html { font-size: 7px; }
 }
+@media (max-width: 599px) {
+  html { font-size: 6px; }
+}
+
 body {
 	background: rgb(197,229,226) url('sakura.png') top left no-repeat fixed;
 	margin: 0;
