@@ -16,16 +16,17 @@
       <h1>RSVP</h1>
       <label>
         Your name
-        <input type="text" style="width: 12em" />
+        <input name="name" type="text" style="width: 12em" />
       </label>
       <label>
-        <input type="checkbox" checked />
+        <input name="attending" type="checkbox" checked />
         Will attend
       </label>
       <label> 
         Number in attendance
-        <input type="number" style="width: 3em;" />
+        <input name="guests" type="number" style="width: 3em;" />
       </label>
+      <input type="text" name="_gotcha" style="display:none" />
       <button type="submit">Send</button>
     </form>
     <section>
