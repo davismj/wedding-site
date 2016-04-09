@@ -1,7 +1,8 @@
-
+html { 
+	font-size: 1vh;
+}
 body {
 	background: rgb(197,229,226) url('sakura.png') top left no-repeat fixed;
-	background: contain;
 	margin: 0;
     font-family: sans-serif;
     color: #552A28;
