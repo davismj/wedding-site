@@ -36,6 +36,8 @@ label {
 	cursor: pointer;
 }
 input {
+	font-size: inherit;
+	font-family: inherit;
     border: 0;
     border-bottom: 1px solid;
     display: inline;
