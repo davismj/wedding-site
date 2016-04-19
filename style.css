@@ -33,6 +33,10 @@ h1 + * {
 }
 p {  
 	margin: 0;
+	line-height: 4rem;
+}
+p + p {
+	margin-top: 2rem;
 }
 label { 
 	font-weight: bold;
